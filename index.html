@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <section class="Calculadora">
+        <div id="tela">0</div>
+        </div>
+        <div class="botoes_calculadora">
+            <button onclick="get('0')">0</button>
+            <button onclick="get('1')">1</button>
+            <button onclick="get('2')">2</button>
+            <button onclick="limpar('C')">C</button>
+            <button onclick="get('3')">3</button>
+            <button onclick="get('4')">4</button>
+            <button onclick="get('5')">5</button>
+            <button onclick="getOperador('+')">+</button>
+            <button onclick="get('6')">6</button>
+            <button onclick="get('7')">7</button>
+            <button onclick="get('8')">8</button>
+            <button onclick="getOperador('-')">-</button>            
+            <button onclick="get('9')">9</button>
+            <button onclick="getOperador('x')">x</button>
+            <button onclick="getOperador('÷')">÷</button>
+            <button onclick="calcular('=')">=</button>
+            <button onclick="getOperador('^')">^</button>
+        </div> 
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
